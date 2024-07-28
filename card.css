@@ -1,0 +1,67 @@
+h1
+{
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    width:40%;
+    height:70%;
+    margin:auto;
+}
+.img
+{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img
+{
+    width:100%;
+    transition: all 0.2s linear;
+}
+
+.text
+{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 238, 238);
+    width:100%;
+}
+.text .v:hover
+{
+    transform: scale(1.2);
+    transition: all 0.4s linear;
+    text-shadow:-2px 2px rgb(229, 223, 181);
+}
+.img img:hover
+{
+    transform:scale(0.9);
+    transition: all 0.2s linear;
+}
+
+
+.h
+{
+    position:absolute;
+    top:0;
+    left:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.v
+{
+    font-size: large;
+    color:rgb(135, 105, 4);
+    transition: all 0.2s linear;
+}
